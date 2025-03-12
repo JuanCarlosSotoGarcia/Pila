@@ -3,10 +3,6 @@
 #include <stdbool.h>
 #include "nodo.h"
 
-typedef int Dato;
-
-typedef struct _nodo nodo;
-
 typedef struct{
     nodo *cima;
     int len;    
